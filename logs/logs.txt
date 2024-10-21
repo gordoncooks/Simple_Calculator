@@ -1,0 +1,6 @@
+Timestamp: 2024-10-21 10:18:43; Description: Program Started
+Timestamp: 2024-10-21 10:18:51; Description: Add selected. (n1 + n2)
+Timestamp: 2024-10-21 10:19:10; Description: Add selected. (n1 + n2)
+Timestamp: 2024-10-21 10:19:12; Description: Invalid input. Please enter a number.
+Timestamp: 2024-10-21 10:19:44; Description: Add selected. (n1 + n2)
+Timestamp: 2024-10-21 10:20:28; Description: Program stoped running.
