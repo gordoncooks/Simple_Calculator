@@ -37,33 +37,40 @@ Main Menu:
 
     print(menu_text)
 
+def collect_numbers():
+    """Will collect 2 numbers."""
+    while True:
+        try:
+            num1 = float(input("Enter the first number: "))     # Get the first number from the user
+            num2 = float(input("Enter the second number: "))    # Get the second number from the user
+            return num1, num2
+        except:
+            log("Invalid input")
+    
+
 def add():
     """Will add two numbers together"""
-    # Get the first number from the user
-    num1 = float(input("Enter the first number: "))
-    # Get the second number from the user
-    num2 = float(input("Enter the second number: "))
+    # Collet numbers from user
+    num1, num2 = collect_numbers()
     # Add the two number together
     result = num1 + num2
     return result
     
 def mult():
     """Will multiply two numbers together"""
-    # Get the first number from the user
-    num1 = float(input("Enter the first number: "))
-    # Get the second number from the user
-    num2 = float(input("Enter the second number: "))
-    # Multiply the two number together
+    """Will add two numbers together"""
+    # Collet numbers from user
+    num1, num2 = collect_numbers()
+    # Add the two number together
     result = num1 * num2
     return result
 
 def sub():
     """Will subtract two numbers from each other"""
-    # Get the first number from the user
-    num1 = float(input("Enter the first number: "))
-    # Get the second number from the user
-    num2 = float(input("Enter the second number: "))
-    # Subtract the second number from the first number
+    """Will add two numbers together"""
+    # Collet numbers from user
+    num1, num2 = collect_numbers()
+    # Add the two number together
     result = num1 - num2
     return result
 
@@ -72,11 +79,10 @@ def div():
 
     while True:
         try:
-            # Get the first number from the user
-            num1 = float(input("Enter the first number: "))
-            # Get the second number from the user
-            num2 = float(input("Enter the second number: "))
-            # Divide the one number from an other
+            """Will add two numbers together"""
+            # Collet numbers from user
+            num1, num2 = collect_numbers()
+            # Add the two number together
             result = num1 / num2
             return result
         except ZeroDivisionError:
