@@ -1,0 +1,14 @@
+Timestamp: 2024-10-21 11:20:00; Description: Program Started
+Timestamp: 2024-10-21 11:20:03; Description: Divide selected. (n1 / n2)
+Timestamp: 2024-10-21 11:20:09; Description: Invalid input. Please enter a number.
+Timestamp: 2024-10-21 11:26:13; Description: Program Started
+Timestamp: 2024-10-21 11:26:15; Description: Add selected. (n1 + n2)
+Timestamp: 2024-10-21 11:26:21; Description: Exeting Add
+Timestamp: 2024-10-21 11:28:24; Description: Invalid input. Please enter a number.
+Timestamp: 2024-10-21 11:28:29; Description: Add selected. (n1 + n2)
+Timestamp: 2024-10-21 11:28:36; Description: Exeting Add
+Timestamp: 2024-10-21 11:29:49; Description: Invalid input. Please enter a number.
+Timestamp: 2024-10-21 11:29:52; Description: Add selected. (n1 + n2)
+Timestamp: 2024-10-21 11:30:02; Description: Exeting Add
+Timestamp: 2024-10-21 11:30:11; Description: Add selected. (n1 + n2)
+Timestamp: 2024-10-21 11:30:14; Description: Exeting Add

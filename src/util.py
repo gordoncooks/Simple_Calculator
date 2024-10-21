@@ -41,9 +41,16 @@ def collect_numbers():
     """Will collect 2 numbers."""
     while True:
         try:
-            num1 = float(input("Enter the first number: "))     # Get the first number from the user
-            num2 = float(input("Enter the second number: "))    # Get the second number from the user
-            return num1, num2
+            num1 = input("Enter the first number: ")     # Get the first number from the user
+            # Check if the user requseted to exit the program
+            if num1 == "exite":
+                return False, False
+                
+            num2 = input("Enter the second number: ")    # Get the second number from the user
+            # Check if the user requseted to exit the program
+            if num2 == "exite":
+                return False, False
+            return float(num1), float(num2)
         except:
             log("Invalid input")
     
@@ -52,6 +59,9 @@ def add():
     """Will add two numbers together"""
     # Collet numbers from user
     num1, num2 = collect_numbers()
+    # Check if exite flag is trigered
+    if num1 or num2 == False:
+        return False
     # Add the two number together
     result = num1 + num2
     return result
@@ -61,6 +71,9 @@ def mult():
     """Will add two numbers together"""
     # Collet numbers from user
     num1, num2 = collect_numbers()
+    # Check if exite flag is trigered
+    if num1 or num2 == False:
+        return False
     # Add the two number together
     result = num1 * num2
     return result
@@ -70,6 +83,9 @@ def sub():
     """Will add two numbers together"""
     # Collet numbers from user
     num1, num2 = collect_numbers()
+    # Check if exite flag is trigered
+    if num1 or num2 == False:
+        return False
     # Add the two number together
     result = num1 - num2
     return result
@@ -82,6 +98,9 @@ def div():
             """Will add two numbers together"""
             # Collet numbers from user
             num1, num2 = collect_numbers()
+            # Check if exite flag is trigered
+            if num1 or num2 == False:
+                return False
             # Add the two number together
             result = num1 / num2
             return result

@@ -15,28 +15,40 @@ while True:
 
             result = add()
 
-            print(f"Awnser: {result}")
+            if result == False:
+                log("Exeting Add")
+            else:
+                print(f"Awnser: {result}")
 
         elif task == 2:
             log("Subtract selected. (n1 - n2)") # Log TASK
             
             result = sub()
 
-            print(f"Awnser: {result}")
+            if result == False:
+                log("Exeting Subtract")
+            else:
+                print(f"Awnser: {result}")
 
         elif task == 3:
             log("Multiply selected. (n1 * n2)") # Log TASK
             
             result = mult()
 
-            print(f"Awnser: {result}")
+            if result == False:
+                log("Exeting Multiply")
+            else:
+                print(f"Awnser: {result}")
 
         elif task == 4:
             log("Divide selected. (n1 / n2)") # Log TASK
 
             result = div()
 
-            print(f"Awnser: {result}")
+            if result == False:
+                log("Exeting Divide")
+            else:
+                print(f"Awnser: {result}")
 
         elif task == 5:
             log("Program stoped running.") # Log TASK
